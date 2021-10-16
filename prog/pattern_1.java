@@ -6,7 +6,7 @@ public class pattern_1 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		int i=1,n;
-		System.out.println("Enter the no of rows ");
+		System.out.println("Enter row nos ");
 		n =sc.nextInt();
 		
 		while(i<=n) {
