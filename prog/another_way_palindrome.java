@@ -6,11 +6,11 @@ public class another_way_palindrome {
 	public static boolean check(String str) {
 		int l= str.length();
 		String str1="";
-		for(int i=l-1;i>=0;i--){
-			str1=str1+str.charAt(i);
+		for(int j=l-1;j>=0;j--){
+			str1=str1+str.charAt(j);
 		}
-		for(int i=0;i<l;i++) {
-			if(str1.charAt(i)!=str.charAt(i)) {
+		for(int j=0;j<l;j++) {
+			if(str1.charAt(j)!=str.charAt(j)) {
 				return false;
 				
 			}
